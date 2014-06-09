@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<title>Avioncito de Papel - Chat</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div class="titulo" style="width: 600px; margin: 0 auto;">
+		<a href="index.html"><img src="img/001.jpg"></a>
+	</div>
+
+	<hr><hr>
+	<div class="page-header" style="width: 400px; margin: 0 auto;">
+	  <h1>Chat <small></small></h1>
+	</div>
+
+	<form class="form-horizontal" action="chat.html" method="post">
+
+		<!-- Form Name -->
+
+		<!-- Text input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="name">Destinatario</label>  
+		  <div class="col-md-4">
+		  <input id="name" name="name" type="text" placeholder="" class="form-control input-md">
+		    
+		  </div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="name">Mensaje</label>  
+		  <div class="col-md-4">
+		  <input id="name" name="msj" type="text" placeholder="" class="form-control input-md">
+		    
+		  </div>
+		</div>
+
+
+		<!-- Invisible Input -->
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="name"></label>  
+		  <div class="col-md-4">
+		  <input style="visibility:hidden;" id="name" name="invisible" type="text" placeholder="" value="invisible" class="form-control input-md">
+		    
+		  </div>
+		</div>
+
+		<!-- Button -->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="sendButton"></label>
+		  <div class="col-md-4">
+		    <button type="" id="sendButton" class="btn btn-success">Enviar</button>
+		    <a href="recibir.html" title="" class="btn btn-info">Recibir Mensajes</a>
+		  </div>
+		</div>
+
+		</form>
+		
+
+</body>
+</html>
